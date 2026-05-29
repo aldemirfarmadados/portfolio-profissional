@@ -1,9 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<title>Meu Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Analista de Dados & LSS</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>Portfólio em construção</h1>
+
+<header>
+  <h1>Aldemir Souza</h1>
+  <p>Analista de Dados | Lean Six Sigma | Marketing Analytics</p>
+
+  <div class="buttons">
+    <a href="#cases">Ver Cases</a>
+    <a href="cv.pdf" target="_blank">Baixar CV</a>
+  </div>
+</header>
+
+<section class="stats">
+  <div class="card">📊 6 Cases Concluídos</div>
+  <div class="card">🔄 2 Em Andamento</div>
+  <div class="card">📈 Melhoria de Processos</div>
+  <div class="card">⚙️ Python | SQL | Power BI</div>
+</section>
+
+<section id="cases">
+  <h2>Cases de Sucesso</h2>
+
+  <div class="grid">
+
+    <!-- CASE 1 -->
+    <div class="case-card">
+      <img src="images/case1.jpg">
+      <h3>Otimização de Processo X</h3>
+
+      <div class="charts">
+        <img src="charts/case1-before.png">
+        <img src="charts/case1-after.png">
+      </div>
+
+      <a href="cases/case1.pdf" target="_blank">Abrir Case</a>
+    </div>
+
+    <!-- CASE 2 -->
+    <div class="case-card">
+      <img src="images/case2.jpg">
+      <h3>Análise de Desperdício</h3>
+
+      <div class="charts">
+        <img src="charts/case2-before.png">
+        <img src="charts/case2-after.png">
+      </div>
+
+      <a href="cases/case2.pdf" target="_blank">Abrir Case</a>
+    </div>
+
+    <!-- Repita até Case 6 -->
+
+  </div>
+</section>
+
+<section id="progress">
+  <h2>Cases em Andamento</h2>
+
+  <div class="progress-grid">
+
+    <div class="progress-card">
+      <h3>Projeto 1</h3>
+      <p>Status: Coleta de dados</p>
+      <div class="bar"><div style="width:60%"></div></div>
+    </div>
+
+    <div class="progress-card">
+      <h3>Projeto 2</h3>
+      <p>Status: Análise exploratória</p>
+      <div class="bar"><div style="width:40%"></div></div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 - Portfólio Profissional em Dados</p>
+</footer>
+
 </body>
 </html>
