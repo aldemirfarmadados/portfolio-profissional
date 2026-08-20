@@ -124,3 +124,23 @@ footer {
   padding: 20px;
   background: #0b1220;
 }
+/* EFEITO DE HOVER NOS CARDS */
+.case-card, .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 1px solid transparent; /* Evita que o card balance ao surgir a borda */
+}
+
+.case-card:hover, .card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.4); /* Glow neon azul */
+  border-color: #38bdf8;
+}
+
+/* ZOOM SUAVE NAS IMAGENS DO CASE */
+.case-card img {
+  transition: transform 0.3s ease;
+}
+
+.case-card:hover img {
+  transform: scale(1.03);
+}
